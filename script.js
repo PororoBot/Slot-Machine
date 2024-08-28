@@ -87,6 +87,7 @@ function testWin(){
 	else {
 		status.innerHTML = "YOU LOSE!";
 		lose.play();
+	doing() = false:
 }
 
 function toggleAudio(){
