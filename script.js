@@ -85,8 +85,8 @@ function testWin(){
 		status.innerHTML = "YOU WIN!";
 		win.play();
 	else 
-		status.innerHTML = "YOU WIN!";
-		win.play();
+		status.innerHTML = "YOU LOSE!";
+		lose.play();
 	doing = false;
 }
 
