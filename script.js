@@ -84,7 +84,7 @@ function testWin(){
 		(slot2 == slot3 && slot2 == "a7") ) && !(slot1 == slot2 && slot2 == slot3 && slot1=="a7")){
 		status.innerHTML = "YOU WIN!";
 		win.play();
-	else 
+	else {
 		status.innerHTML = "YOU LOSE!";
 		lose.play();
 	doing = false;
