@@ -1,4 +1,4 @@
-var doing = true;
+var doing = false;
 var spin = [new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3"),new Audio("res/sounds/spin.mp3")];
 var coin = [new Audio("res/sounds/coin.mp3"),new Audio("res/sounds/coin.mp3"),new Audio("res/sounds/coin.mp3")]
 var win = new Audio("res/sounds/win.mp3");
@@ -87,7 +87,6 @@ function testWin(){
 	else {
 		status.innerHTML = "YOU LOSE!";
 		lose.play();
-	doing = false;
 }
 
 function toggleAudio(){
